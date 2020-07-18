@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pugixml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\submodules\;CMake Files\submodules\cxxopts\;CMake Files\submodules\cxxopts\src\;CMake Files\submodules\cxxopts\test\;CMake Files\submodules\pugixml\;CMake Files\submodules\pugixml\scripts\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pugixml-static">
+				<Option output="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/libpugixml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 pugixml-static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pugixml-static/fast">
+				<Option output="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/libpugixml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 pugixml-static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/gui/Projects/cpp/guarani-processor/cmake-build-debug/submodules/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/src/pugixml.cpp">
+			<Option target="pugixml-static"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/src/pugixml.hpp">
+			<Option target="pugixml-static"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/cxxopts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\submodules\cxxopts\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/cxxopts/cxxopts-config.cmake.in">
+			<Option virtualFolder="CMake Files\submodules\cxxopts\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/cxxopts/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\submodules\cxxopts\src\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/cxxopts/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\submodules\cxxopts\test\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\submodules\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/scripts/pugixml-config.cmake.in">
+			<Option virtualFolder="CMake Files\submodules\pugixml\scripts\"/>
+		</Unit>
+		<Unit filename="/home/gui/Projects/cpp/guarani-processor/submodules/pugixml/scripts/pugixml.pc.in">
+			<Option virtualFolder="CMake Files\submodules\pugixml\scripts\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
